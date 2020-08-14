@@ -31,20 +31,29 @@
       <nav>
         <h6>Follow me on</h6>
         <ul>
-          {% if site.twitter %}
-          <li><a target="_blank" href="https://twitter.com/{{ site.twitter }}">Twitter</a></li>
+          {% if site.project %}
+          <li><a target="_blank" href="https://github.com/karanankit01/{{ site.project }}">LuaFormatter Project</a></li>
           {% endif %}
           {% if site.github %}
           <li><a target="_blank" href="https://github.com/{{ site.github }}">Github</a></li>
           {% endif %}
-          {% if site.dribbble %}
-          <li><a target="_blank" href="https://dribbble.com/{{ site.dribbble }}">Dribbble</a></li>
+          {% if site.linkedin %}
+          <li><a target="_blank" href="https://www.linkedin.com/in/{{ site.linkedin }}">LinkedIn</a></li>
+          {% endif %}
+          {% if site.twitter %}
+          <li><a target="_blank" href="https://twitter.com/{{ site.twitter }}">Twitter</a></li>
           {% endif %}
           {% if site.instagram %}
           <li><a target="_blank" href="https://instagram.com/{{ site.instagram }}">Instagram</a></li>
           {% endif %}
         </ul>
       </nav>
+      <figure class="avatar">
+        <img src="{{ site.baseurl }}/assets/img/mentor.jpg" alt="Picture" title="That's my mentor, {{ site.mentor }}.">
+      </figure>
+      <div class="bio">
+          <h1>Project Mentor{{ site.mentor }}.</h1>
+      </div>
     </div>
 
 

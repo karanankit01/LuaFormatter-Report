@@ -6,6 +6,7 @@ description: "GSoC Project Report "
 
 # Your name. Will show in your footer + sidebar
 author: "Ankit Karan"
+mentor: "Pedro Tammela"
 
 url: "http://karanankit01.github.io"
 baseurl: "/LuaFormatter-Report"
@@ -15,11 +16,11 @@ author-bio: "I am Undergrad Student at IIT Mandi. I have enjoyed few fields of C
 
 # Social Accounts (mine, as placeholders)
 
-project: https://github.com/karanankit01/LuaFormatter/tree/master
-twitter: baba_gyanee 
+project: LuaFormatter/tree/master
+twitter: baba_gyanee
 github: karanankit01
-facebook: ankit.karan.58
-instagram: ankit.karan.58
+linkedin: ankit-karan-47904b182
+instagram: _i_m_ank_
 
 # Google Analytics (you may want to changes these with yours or even delete :)
 
