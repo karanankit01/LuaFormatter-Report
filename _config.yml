@@ -1,5 +1,5 @@
 # Title of your blog; shows in the header
-name: "LuaFormatter"
+name: "LuaFormatter-Report"
 
 # Description of your content (will only be used on Google Search)
 description: "GSoC Project Report "
@@ -12,7 +12,8 @@ url: "http://karanankit01.github.io"
 baseurl: "/LuaFormatter-Report"
 
 # A short presentation of yourself. Will show in the sidebar, under your name. Best usage would be between 30 to 50 words.
-author-bio: "I am Undergrad Student at IIT Mandi. I have enjoyed few fields of Computer Science like Web development, Competitive Programming, Game development and Machine Learning. I have represented my college in various competitions. I have created software and designed system to build solutions for real life problems. I have been coordinator and active contributor for some clubs and society of my college."
+author-bio: "Software Developer @Lablua | Google Summer of Code 2020"
+mentor-bio: "Mentor @LabLua | Google Summer of Code 2020"
 
 # Social Accounts (mine, as placeholders)
 
