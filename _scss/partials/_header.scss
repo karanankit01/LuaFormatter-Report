@@ -20,7 +20,15 @@ header {
       }
     }
   } // end h1.title
-
+  .avatar {
+    display: block;
+    margin-bottom: $spacing-s;
+    img {
+      width: 3em;
+      height: 3em;
+      border-radius: 50%;
+    }
+  }
   .close {
     .lines {
       background: transparent;
