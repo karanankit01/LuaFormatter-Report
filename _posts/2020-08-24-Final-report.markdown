@@ -31,5 +31,5 @@ Finally, after completion of the project the workflow of the Formatter is:
 
 ## Further Work (After GSoC)
 
-## Thanks Note
+## Words of Thanks
 
