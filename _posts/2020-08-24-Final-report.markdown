@@ -28,6 +28,11 @@ Finally, after completion of the project the workflow of the Formatter is:
 ## Technologies used and learnt
 
 ## My Code Contributions
+The following PRs include the work for the above-mentioned highlights and also other miscellaneous works and bug fixes during the GSoC period.
+### Merged PRs
+ * [#93 : Fixed Compilation and Typo error ](https://github.com/Koihik/LuaFormatter/pull/93)
+ * [#105 : Test case for space_before_call feature ](https://github.com/Koihik/LuaFormatter/pull/105)
+ * [#106 : Fixed issue#98 Added Column_table_limit feature ](https://github.com/Koihik/LuaFormatter/pull/106)
 
 ## Further Work (After GSoC)
 
