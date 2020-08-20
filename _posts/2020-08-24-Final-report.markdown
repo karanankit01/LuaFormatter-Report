@@ -11,7 +11,7 @@ Originally, the project was aimed at the following:
  * Enhancement of configuration field with more features and solve existing bugs.
 
 Initially, the Formatter workflow was simple as:
-<img src="{{ site.baseurl }}/assets/img/initial.png">
+<img src="{{ site.baseurl }}/assets/img/Before_project.png">
 
 ## Project Implementation
 The project was completed in three phases:
@@ -23,9 +23,13 @@ The project was completed in three phases:
 ### Phase3
 
 Finally, after completion of the project the workflow of the Formatter is:
-<img src="{{ site.baseurl }}/assets/img/Final.png">
+<img src="{{ site.baseurl }}/assets/img/After_project.png">
 
-## Project Outcome
+## Technologies used and learnt
+
+## My Code Contributions
 
 ## Further Work (After GSoC)
+
+## Thanks Note
 
