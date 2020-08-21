@@ -35,7 +35,7 @@ The following PRs include the work for the above-mentioned highlights and also o
  * [#106 : Fixed issue#98 Added Column_table_limit feature ](https://github.com/Koihik/LuaFormatter/pull/106)
  * [#108 : Fixed Bug of align_parameter for false ](https://github.com/Koihik/LuaFormatter/pull/108)
  * [#113 : Implemented configuration flags via commandline](https://github.com/Koihik/LuaFormatter/pull/113)
- * [#117 : Added Documentation for the configuration setting through commandline](https://github.com/Koihik/LuaFormatter/pull/117)
+ * [#117 : Documentation for configuration setting through commandline](https://github.com/Koihik/LuaFormatter/pull/117)
  * [#118 : Added unit-test for command line feature](https://github.com/Koihik/LuaFormatter/pull/118)
  * [#124 : Implemented Integral lazy configuration validator](https://github.com/Koihik/LuaFormatter/pull/124)
  * [#130 : Implemented Conflicting validators with test cases](https://github.com/Koihik/LuaFormatter/pull/130)
@@ -50,4 +50,7 @@ The following PRs include the work for the above-mentioned highlights and also o
 ## Further Work (After GSoC)
 
 ## Words of Thanks
+I would like to thank my mentor for his continuous guidance throughout the summer and giving me the best experience of my life.The motivation and guidance I got from him will definitely help me in the days to come.  
+Time flew and brought us close to the end. However, the best things deserve to be a special part of our life and LabLua had already made its place in my heart long back. Loads of 💖 to my LabLua family.  
 
+We will keep improving the user as well as developer experience in the coming days. Cheers to a new beginning.✌
