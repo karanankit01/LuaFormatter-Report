@@ -50,7 +50,8 @@ The following PRs include the work for the above-mentioned highlights and also o
 ## Further Work (After GSoC)
 
 ## Words of Thanks
-I would like to thank my mentor for his continuous guidance throughout the summer and giving me the best experience of my life.The motivation and guidance I got from him will definitely help me in the days to come.  
+I would like to thank my mentor for his continuous guidance throughout the summer and giving me the best experience of my life. The motivation and guidance I got from him will definitely help me in the days to come.  
+
 Time flew and brought us close to the end. However, the best things deserve to be a special part of our life and LabLua had already made its place in my heart long back. Loads of 💖 to my LabLua family.  
 
 We will keep improving the user as well as developer experience in the coming days. Cheers to a new beginning.✌
