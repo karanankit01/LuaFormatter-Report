@@ -33,13 +33,6 @@ The codebase workflow (HACKING.md) of the project was initiated in this phase. T
 ### Phase3
 Now the validators for the configuration fields are implemented. Values of each configuration fields are passed through their corresponding validators. In case of error in the configuration values the validators throw the error and the program gets terminated. Validators are implemented for domain error, logic error and conflicting error with the value of other configuration field. At last workflow of all the implemented features was updated in HACKING.md  
 
-<img src="{{ site.baseurl }}/assets/img/Int_validator.png">
-
-*Fig : Integral Validator for configuration*
-
-<img src="{{ site.baseurl }}/assets/img/conf_validator.png">
-
-*Fig : Conflicting Validator for quote*
 
 Finally, after completion of the project the workflow of the Formatter is:
 <img src="{{ site.baseurl }}/assets/img/After_project.png">
