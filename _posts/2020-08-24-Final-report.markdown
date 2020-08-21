@@ -13,9 +13,9 @@ LuaFormatter is a code formatter which helps to style a code in Lua scripts whic
 Formatter style the lua scripts according to the configuration value set to it. But before this project LuaFormatter doesn't check if the configuration values make sense before using it i.e, validation of configuration values.  
 
 So, originally the project was aimed at the following:
- * Building the Validators for each of the configuration fields.
- * Implement feature to add configuration field value through command line flags.
- * Enhancement of configuration field with more features and solve existing bugs.
+ >* Building the Validators for each of the configuration fields.
+ >* Implement feature to add configuration field value through command line flags.
+ >* Enhancement of configuration field with more features and solve existing bugs.
 
 Initially, the Formatter workflow was simple as:
 <img src="{{ site.baseurl }}/assets/img/Before_project.png">
