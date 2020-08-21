@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  " Final Work Submission Report | Project Summary [In Progress]"
+title:  " Final Work Submission Report  Project Summary [In Progress]"
 date:   2020-08-24 16:57:51
 ---
 
@@ -21,9 +21,9 @@ Initially, the Formatter workflow was simple as:
 <img src="{{ site.baseurl }}/assets/img/Before_project.png">
 
 ## Project Implementation
-The project was completed in three phases:
-
+The project started with fixing the existing issues and implemented some enhancement features in it.The project was completed in three phases:  
 ### Phase1
+This phase starts with adding test case for space_before_call feature. It was later followed by adding the column_table_limit feature in the configuration. This feature helps the user to set the column limit of the table independently of column_limit config value. If user will not provide the value of column_table_limit then the formatter automatically sets the column_table_limit value as same as column_limit. The test case and documentation is added along with this feature. Also, align_parameter feature was fixed in this phase.  
 
 ### Phase2
 
