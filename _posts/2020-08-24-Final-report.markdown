@@ -26,8 +26,10 @@ The project started with fixing the existing issues and implemented some enhance
 This phase starts with adding test case for space_before_call feature. It was later followed by adding the column_table_limit feature in the configuration. This feature helps the user to set the column limit of the table independently of column_limit config value. If user will not provide the value of column_table_limit then the formatter automatically sets the column_table_limit value as same as column_limit. The test case and documentation is added along with this feature. Also, align_parameter feature was fixed in this phase.  
 
 ### Phase2
+The codebase workflow (HACKING.md) of the project was initiated in this phase. This is the working documentation of the program. In continuation with HACKING.md the feature implementation of configuration setting through command line flags is started. In this feature the user can set the configuration value of each field through command line flags. Also the Unit-test and documentation for the feature is added.  
 
 ### Phase3
+Now the validators for the configuration fields are implemented. Values of each configuration fields are passed through their corresponding validators. In case of error in the configuration values the validators throw the error and the program gets terminated. Validators are implemented for domain error, logic error and conflicting error with the value of other configuration field. At last workflow of all the implemented features was updated in HACKING.md  
 
 Finally, after completion of the project the workflow of the Formatter is:
 <img src="{{ site.baseurl }}/assets/img/After_project.png">
