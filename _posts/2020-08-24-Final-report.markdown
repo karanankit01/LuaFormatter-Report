@@ -61,13 +61,13 @@ The following PRs include the work for the above-mentioned highlights and also o
 ### All PRs : [LuaFormatter](https://github.com/Koihik/LuaFormatter/pulls?q=is%3Apr+author%3Akaranankit01)
 
 ## Further Work (After GSoC)
-The GSoC Project is completed successfully and all the features are ready to use by the users. After this I have some plan which can be implemented after Google Summer of Code.  
+The GSoC Project is completed successfully and all the features are ready to use by the users. After this I have some plan which can be implemented after Google Summer of Code.
  * Some more fields will be added in the configuration for formatting.
  * Existing bugs will be resolved.
- * Enhancement of some existing features like chop_down_parameter will be done
+ * Enhancement of some existing features like chop_down_parameter will be done.
  * Continue to work on the project along with fixing issues and helping other developers and users.
 
- 
+
 ## Words of Thanks
 I would like to thank my mentor for his continuous guidance throughout the summer and giving me the best experience of my life. The motivation and guidance I got from him will definitely help me in the days to come.  
 
