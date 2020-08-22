@@ -38,7 +38,15 @@ Now the validators for the configuration fields are implemented. Values of each 
 Finally, after completion of the project the workflow of the Formatter is:
 <img src="{{ site.baseurl }}/assets/img/After_project.png">
 
-## Technologies used and learnt
+## Technologies involved
+The technologies which I learned and used in the project are given below:
+ * Used Args parser and group validator to set configuration flags.
+ * Maps are used to store the configuration value from command line flags and validators of configuration field.
+ * Used **`any`** for storing values of every configuration field in a single map which later processed by **`any_cast`**.
+ * Used lambda function to implement the validator.
+ * Used generic programming to keep the project in standard layout.
+ * Implemented unit-test for various testings.
+ * Get knowledge about various **`git commands`** and used it for maintaing the PRs and git log.
 
 ## My Code Contributions
 The following PRs include the work for the above-mentioned highlights and also other miscellaneous works and bug fixes during the GSoC period.
