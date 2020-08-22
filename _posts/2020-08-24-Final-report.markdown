@@ -27,6 +27,7 @@ This phase starts with adding test case for space_before_call feature. It was la
 
 ### Phase2
 The codebase workflow (HACKING.md) of the project was initiated in this phase. This is the working documentation of the program. In continuation with HACKING.md the feature implementation of configuration setting through command line flags is started. In this feature the user can set the configuration value of each field through command line flags. Also the Unit-test and documentation for the feature is added.  
+
 <img src="{{ site.baseurl }}/assets/img/cmd.png">
 
 *Fig : Configuration through command line flags*
@@ -60,7 +61,13 @@ The following PRs include the work for the above-mentioned highlights and also o
 ### All PRs : [LuaFormatter](https://github.com/Koihik/LuaFormatter/pulls?q=is%3Apr+author%3Akaranankit01)
 
 ## Further Work (After GSoC)
+The GSoC Project is completed successfully and all the features are ready to use by the users. After this I have some plan which can be implemented after Google Summer of Code.  
+ * Some more fields will be added in the configuration for formatting.
+ * Existing bugs will be resolved.
+ * Enhancement of some existing features like chop_down_parameter will be done
+ * Continue to work on the project along with fixing issues and helping other developers and users.
 
+ 
 ## Words of Thanks
 I would like to thank my mentor for his continuous guidance throughout the summer and giving me the best experience of my life. The motivation and guidance I got from him will definitely help me in the days to come.  
 
