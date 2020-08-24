@@ -7,10 +7,11 @@ date:   2020-08-24 16:57:51
 ## Overview
 
 ### What is LuaFormatter ?
-LuaFormatter is a code formatter which helps to style a code in Lua scripts which will also help in easy integration with various code editors.  
+LuaFormatter is a code formatter for Lua scripts inspired by clang-format. It also integrates easily in various code editors.  
 
 ### Project Idea
-Formatter style the lua scripts according to the configuration value set to it. But before this project LuaFormatter doesn't check if the configuration values make sense before using it i.e, validation of configuration values.  
+Formatter style the lua scripts according to the configuration value set to it. But before this project LuaFormatter doesn't check if the configuration values make sense before using it i.e, validation of configuration values.Some configuration with validation error:  
+ * Domain validation `column_limit : -5 ` , `column_table_limit : 0` , `indent_width : -2`
 
 So, originally the project was aimed at the following:
  * Building the Validators for each of the configuration fields.
@@ -45,7 +46,7 @@ The technologies which I learned and used in the project are given below:
  * Used **`any`** for storing values of every configuration field in a single map which later processed by **`any_cast`**.
  * Used lambda function to implement the validator.
  * Used generic programming to keep the project in standard layout.
- * Implemented unit-test for various testings.
+ * Implemented unit-test for various features.
  * Get knowledge about various **`git commands`** and used it for maintaing the PRs and git log.
 
 ## My Code Contributions
@@ -76,7 +77,7 @@ The GSoC Project is completed successfully and all the features are ready to use
  * Continue to work on the project along with fixing issues and helping other developers and users.
 
 
-## Words of Thanks
+## Acknowledgments
 I would like to thank my mentor for his continuous guidance throughout the summer and giving me the best experience of my life. The motivation and guidance I got from him will definitely help me in the days to come.  
 
 Time flew and brought us close to the end. However, the best things deserve to be a special part of our life and LabLua had already made its place in my heart long back. Loads of 💖 to my LabLua family.  
