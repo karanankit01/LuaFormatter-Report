@@ -11,10 +11,11 @@ LuaFormatter is a code formatter for Lua scripts inspired by clang-format. It al
 
 ### Project Idea
 Formatter style the lua scripts according to the configuration value set to it. But before this project LuaFormatter doesn't check if the configuration values make sense before using it i.e, validation of configuration values. Some configuration with validation error:  
- * Domain validation  
-   * **`column_limit : -5 `** , **`indent_width : -2`**
+ * Domain validation
+    * **`column_limit : -5 `**
+    * **`indent_width : -2`**
  * Conflict Validation  
-   * **`single_quote_to_double_quote : true`** and **` double_quote_to_single_quote : true`**
+    * **`single_quote_to_double_quote : true`** and **` double_quote_to_single_quote : true`**
 
 So the project was aimed at the following:
  * Building the Validators for each of the configuration fields.
