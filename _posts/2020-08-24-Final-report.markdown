@@ -29,8 +29,8 @@ This phase starts with adding test case for **space_before_call** feature. It wa
 
 ### Phase2
 The codebase workflow (HACKING.md) of the project was initiated in this phase. This is the working documentation of the program. In continuation with HACKING.md the feature implementation of configuration setting through command line flags is started. In this feature the user can set the configuration value of each field through command line flags. Also the Unit-test and documentation for the feature is added.  
-*Configuration through command line flags*
-   ./lua-format file.lua --column-limit 20 --use-tab --no-align-parameter --tab-width 4 --extra-sep-at-table-end --table-sep ; --keep-simple-function-one-line  
+*Configuration through command line flags try*
+    ./lua-format file.lua --column-limit 20 --use-tab --no-align-parameter --tab-width 4 --extra-sep-at-table-end --table-sep ; --keep-simple-function-one-line  
 
 ### Phase3
 Now the validators for the configuration fields are implemented. Values of each configuration fields are passed through their corresponding validators. In case of error in the configuration values the validators throw the error and the program gets terminated. Validators are implemented for domain error, logic error and conflicting error with the value of other configuration field. At last workflow of all the implemented features was updated in HACKING.md  
