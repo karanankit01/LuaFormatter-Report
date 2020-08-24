@@ -12,6 +12,7 @@ LuaFormatter is a code formatter for Lua scripts inspired by clang-format. It al
 ### Project Idea
 Formatter style the lua scripts according to the configuration value set to it. But before this project LuaFormatter doesn't check if the configuration values make sense before using it i.e, validation of configuration values. Some configuration with validation error:  
  * Domain validation **`column_limit : -5 `** , **`indent_width : -2`**
+ * Conflict Validation **`single_quote_to_double_quote : true`** and **` double_quote_to_single_quote : true`**
 
 So, originally the project was aimed at the following:
  * Building the Validators for each of the configuration fields.
@@ -29,7 +30,7 @@ This phase starts with adding test case for **space_before_call** feature. It wa
 ### Phase2
 The codebase workflow (HACKING.md) of the project was initiated in this phase. This is the working documentation of the program. In continuation with HACKING.md the feature implementation of configuration setting through command line flags is started. In this feature the user can set the configuration value of each field through command line flags. Also the Unit-test and documentation for the feature is added.  
 
-<img src="{{ site.baseurl }}/assets/img/cmd.png">
+     ./lua-format file.lua --column-limit 20 --use-tab
 
 *Fig : Configuration through command line flags*
 ### Phase3
@@ -42,7 +43,7 @@ Finally, after completion of the project the workflow of the Formatter is:
 ## Technologies involved
 The technologies which I learned and used in the project are given below:
  * Used Args parser and group validator to set configuration flags.
- * **Std::Maps** are used to store the configuration value from command line flags and validators of configuration field.
+ * **Std::map** are used to store the configuration value from command line flags and validators of configuration field.
  * Used **`std::any`** for storing values of every configuration field in a single map which later processed by **`std::any_cast`**.
  * Used lambda function to implement the validator.
  * Used generic programming to keep the project in standard layout.
