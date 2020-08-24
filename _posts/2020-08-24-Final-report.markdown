@@ -11,10 +11,12 @@ LuaFormatter is a code formatter for Lua scripts inspired by clang-format. It al
 
 ### Project Idea
 Formatter style the lua scripts according to the configuration value set to it. But before this project LuaFormatter doesn't check if the configuration values make sense before using it i.e, validation of configuration values. Some configuration with validation error:  
- * Domain validation **`column_limit : -5 `** , **`indent_width : -2`**
- * Conflict Validation **`single_quote_to_double_quote : true`** and **` double_quote_to_single_quote : true`**
+ * Domain validation  
+   * **`column_limit : -5 `** , **`indent_width : -2`**
+ * Conflict Validation  
+   * **`single_quote_to_double_quote : true`** and **` double_quote_to_single_quote : true`**
 
-So, originally the project was aimed at the following:
+So the project was aimed at the following:
  * Building the Validators for each of the configuration fields.
  * Implement feature to add configuration field value through command line flags.
  * Enhancement of configuration field with more features and solve existing bugs.
@@ -30,7 +32,7 @@ This phase starts with adding test case for **space_before_call** feature. It wa
 ### Phase2
 The codebase workflow (HACKING.md) of the project was initiated in this phase. This is the working documentation of the program. In continuation with HACKING.md the feature implementation of configuration setting through command line flags is started. In this feature the user can set the configuration value of each field through command line flags. Also the Unit-test and documentation for the feature is added.  
 
-    **./lua-format file.lua --column-limit 20 --use-tab --no-align-parameter --tab-width 4 --extra-sep-at-table-end --table-sep ; --keep-simple-function-one-line**
+    ./lua-format file.lua --column-limit 20 --use-tab --no-align-parameter --tab-width 4 --extra-sep-at-table-end --table-sep ; --keep-simple-function-one-line
 
 *Configuration through command line flags*
 
