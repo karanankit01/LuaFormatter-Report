@@ -10,8 +10,8 @@ date:   2020-08-24 16:57:51
 LuaFormatter is a code formatter for Lua scripts inspired by clang-format. It also integrates easily in various code editors.  
 
 ### Project Idea
-Formatter style the lua scripts according to the configuration value set to it. But before this project LuaFormatter doesn't check if the configuration values make sense before using it i.e, validation of configuration values.Some configuration with validation error:  
- * Domain validation `column_limit : -5 ` , `column_table_limit : 0` , `indent_width : -2`
+Formatter style the lua scripts according to the configuration value set to it. But before this project LuaFormatter doesn't check if the configuration values make sense before using it i.e, validation of configuration values. Some configuration with validation error:  
+ * Domain validation **`column_limit : -5 `** , **`indent_width : -2`**
 
 So, originally the project was aimed at the following:
  * Building the Validators for each of the configuration fields.
@@ -24,7 +24,7 @@ Initially, the Formatter workflow was simple as:
 ## Project Implementation
 The project started with fixing the existing issues and implemented some enhancement features in it.The project was completed in three phases:  
 ### Phase1
-This phase starts with adding test case for space_before_call feature. It was later followed by adding the column_table_limit feature in the configuration. This feature helps the user to set the column limit of the table independently of column_limit config value. If user will not provide the value of column_table_limit then the formatter automatically sets the column_table_limit value as same as column_limit. The test case and documentation is added along with this feature. Also, align_parameter feature was fixed in this phase.  
+This phase starts with adding test case for **space_before_call** feature. It was later followed by adding the **column_table_limit** feature in the configuration. This feature helps the user to set the column limit of the table independently of **column_limit** config value. If user will not provide the value of column_table_limit then the formatter automatically sets the column_table_limit value as same as column_limit. The test case and documentation is added along with this feature. Also, **align_parameter** feature was fixed in this phase.  
 
 ### Phase2
 The codebase workflow (HACKING.md) of the project was initiated in this phase. This is the working documentation of the program. In continuation with HACKING.md the feature implementation of configuration setting through command line flags is started. In this feature the user can set the configuration value of each field through command line flags. Also the Unit-test and documentation for the feature is added.  
@@ -42,12 +42,12 @@ Finally, after completion of the project the workflow of the Formatter is:
 ## Technologies involved
 The technologies which I learned and used in the project are given below:
  * Used Args parser and group validator to set configuration flags.
- * Maps are used to store the configuration value from command line flags and validators of configuration field.
- * Used **`any`** for storing values of every configuration field in a single map which later processed by **`any_cast`**.
+ * **Std::Maps** are used to store the configuration value from command line flags and validators of configuration field.
+ * Used **`std::any`** for storing values of every configuration field in a single map which later processed by **`std::any_cast`**.
  * Used lambda function to implement the validator.
  * Used generic programming to keep the project in standard layout.
  * Implemented unit-test for various features.
- * Get knowledge about various **`git commands`** and used it for maintaing the PRs and git log.
+ * Get knowledge about various **`git commands`** and used it for maintaining the PRs and git log.
 
 ## My Code Contributions
 The following PRs include the work for the above-mentioned highlights and also other miscellaneous works and bug fixes during the GSoC period.
