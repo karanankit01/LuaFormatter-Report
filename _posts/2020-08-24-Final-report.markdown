@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  " Final Work Submission Report  Project Summary [In Progress]"
-date:   2020-08-24 16:57:51
+title:  " Final Work Submission Report  Project Summary"
+date:   2020-08-26 16:57:51
 ---
 
 ## Overview
