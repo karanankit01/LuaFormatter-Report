@@ -10,7 +10,7 @@ date:   2020-08-26 16:57:51
 LuaFormatter is a code formatter for Lua scripts inspired by clang-format. It also integrates easily in various code editors.  
 
 ### Project Idea
-LuaFormatter formats the Lua scripts according to an user defined configuration file.Before this project, LuaFormatter didn't check if the configuration values made sense before using it.The following configuration was valid:  
+LuaFormatter formats the Lua scripts according to an user defined configuration file. Before this project, LuaFormatter didn't check if the configuration values made sense before using it. The following configuration was valid:  
  * **`column_limit : -5 `**
  * **`column_table_limit : 0 `**
  * **`indent_width : -2`**
