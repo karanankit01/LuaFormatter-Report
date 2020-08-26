@@ -10,7 +10,7 @@ date:   2020-08-24 16:57:51
 LuaFormatter is a code formatter for Lua scripts inspired by clang-format. It also integrates easily in various code editors.  
 
 ### Project Idea
-Formatter style the lua scripts according to the configuration value set to it. But before this project LuaFormatter doesn't check if the configuration values make sense before using it i.e, validation of configuration values. Some configuration with validation error:  
+LuaFormatter formats the Lua scripts according to an user defined configuration file.Before this project, LuaFormatter didn't check if the configuration values made sense before using it.The following configuration was valid:  
  * **`column_limit : -5 `**
  * **`column_table_limit : 0 `**
  * **`indent_width : -2`**
@@ -55,25 +55,9 @@ The technologies which I learned and used in the project are given below:
 
 ## My Code Contributions
 The following PRs include the work for the above-mentioned highlights and also other miscellaneous works and bug fixes during the GSoC period.
-### Merged PRs
- * [#93 : Fixed Compilation and Typo error ](https://github.com/Koihik/LuaFormatter/pull/93)
- * [#105 : Test case for space_before_call feature ](https://github.com/Koihik/LuaFormatter/pull/105)
- * [#106 : Fixed issue#98 Added Column_table_limit feature ](https://github.com/Koihik/LuaFormatter/pull/106)
- * [#108 : Fixed Bug of align_parameter for false ](https://github.com/Koihik/LuaFormatter/pull/108)
- * [#113 : Implemented configuration flags via commandline](https://github.com/Koihik/LuaFormatter/pull/113)
- * [#117 : Documentation for configuration setting through commandline](https://github.com/Koihik/LuaFormatter/pull/117)
- * [#118 : Added unit-test for command line feature](https://github.com/Koihik/LuaFormatter/pull/118)
- * [#124 : Implemented Integral lazy configuration validator](https://github.com/Koihik/LuaFormatter/pull/124)
- * [#130 : Implemented Conflicting validators with test cases](https://github.com/Koihik/LuaFormatter/pull/130)
+### All PRs : [LuaFormatter](https://github.com/Koihik/LuaFormatter/pulls?q=is%3Apr+author%3Akaranankit01+created%3A%3C%3D2020-08-31)
 
-### Open PRs
- * [#111 : Added HACKING.md - codebase workflow](https://github.com/Koihik/LuaFormatter/pull/111)
-
-### Closed PRs
- * [#107 : Test case for fix continuation](https://github.com/Koihik/LuaFormatter/pull/107)
-### All PRs : [LuaFormatter](https://github.com/Koihik/LuaFormatter/pulls?q=is%3Apr+author%3Akaranankit01)
-
-## Further Work (After GSoC)
+## Further Work
 The GSoC project is completed successfully and all the features are ready to use by the users. After this, I have some plan which can be implemented after Google Summer of Code.
  * Some more fields will be added in the configuration for formatting.
  * Existing bugs will be resolved.
